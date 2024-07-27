@@ -10,7 +10,7 @@ const Card = ({item}:any) => {
         })
     })
     return (
-        <div className=' bg-pink-500 rounded-md' ref={dragRef}>
+        <div className=' bg-pink-500 rounded-md text-center' ref={dragRef}>
             {item.title}
             {isDragging && '😱'}
         </div>
